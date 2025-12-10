@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:white">ello!</h1>
+    <button onclick="doSomething()" style="background-color: black;color:white">RESTRICTED</button>
+
+    <p id="test">LINE CLEARANCE UNAUTHORIZED</p>
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "LINE CLEARANCE AUTHORIZED"
+        }
+    </script>
+
+    <form>
+        <label>first name:</label>
+        <input type="text">
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Fern">
+        </div>
+        <br>
+         <div>
+            <label for="lname">first name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Ashby">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+         <div>
+            <label for="name">name for admitee:</label>
+            <select id="name" name="name">
+                <option value="blank"></option>
+                <option value="maria">maria</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+</html>
+<!-- FPS OF VIDEO PUZZLE-->
